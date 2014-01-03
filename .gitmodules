@@ -4,3 +4,6 @@
 [submodule "Haanga"]
 	path = Haanga
 	url = https://github.com/crodas/Haanga.git
+[submodule "pimf-haanga"]
+	path = pimf-haanga
+	url = https://github.com/gjerokrsteski/pimf-haanga.git
