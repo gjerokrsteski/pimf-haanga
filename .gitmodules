@@ -1,0 +1,6 @@
+[submodule "pimf-framework"]
+	path = pimf-framework
+	url = https://github.com/gjerokrsteski/pimf-framework.git
+[submodule "Haanga"]
+	path = Haanga
+	url = https://github.com/crodas/Haanga.git
