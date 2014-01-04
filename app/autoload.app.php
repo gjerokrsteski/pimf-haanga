@@ -18,7 +18,7 @@ spl_autoload_register(
      * The mappings from class names to file paths.
      */
     static $mappings = array(
-      'Haanga\\Controller\\Hello'  => '/Haanga/Controller/Hello.php',
+      'Vanilla\\Controller\\Hello'  => '/Vanilla/Controller/Hello.php',
     );
 
     // *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-

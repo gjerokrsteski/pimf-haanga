@@ -47,7 +47,7 @@ $config_app = array(
   |------------------------------------------------------------------------
   */
   'app' => array(
-    'name'               => 'Haanga',
+    'name'               => 'Vanilla',
     'key'                => 'some5secret5key5here', // application key
     'default_controller' => 'hello', // the name of the fallback controller
     'routeable'          => true, // get cleaner URLs or not
@@ -58,7 +58,7 @@ $config_app = array(
 
   /*
   |------------------------------------------------------------------------
-  | View settings for Haanga and Twig template engines
+  | View settings for Vanilla and Twig template engines
   |------------------------------------------------------------------------
   */
   'view' => array(
@@ -80,7 +80,7 @@ $config_app = array(
 
     //'db' => array(
     //  'driver' => 'sqlite',
-    //  'database' => 'app/Haanga/_database/production.db'
+    //  'database' => 'app/Vanilla/_database/production.db'
     //),
 
   ),
@@ -120,12 +120,12 @@ $config_app = array(
       'storage' => 'cookie',
 
       // If using file storage - default is null
-      'storage_path' => 'app/Haanga/_session/',
+      'storage_path' => 'app/Vanilla/_session/',
 
       // If using the PDO (database) session storage
       'database' => array(
         //'driver' => 'sqlite',
-        //'database' => 'app/Haanga/_session/session.db',
+        //'database' => 'app/Vanilla/_session/session.db',
       ),
 
       // Garbage collection has a 2% chance of occurring for any given request to
@@ -162,12 +162,12 @@ $config_app = array(
       'storage' => 'file',
 
       // If using file storage - default is null
-      'storage_path' => 'app/Haanga/_cache/',
+      'storage_path' => 'app/Vanilla/_cache/',
 
       // If using the PDO (database) cache storage
       'database' => array(
         //'driver' => 'sqlite',
-        //'database' => 'app/Haanga/_cache/cache.db',
+        //'database' => 'app/Vanilla/_cache/cache.db',
       ),
 
       // If using Memcached and APC to prevent collisions with other applications on the server.
