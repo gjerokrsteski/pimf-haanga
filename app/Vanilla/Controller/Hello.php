@@ -12,7 +12,7 @@ class Hello extends Base
   {
     $firstname = $this->request->fromGet()->get('firstname', array('World'));
 
-    echo new View(
+    $view =  new View(
           'hello.phtml',
           array(
             'blog_title'   => 'Welcome to PIMF Haanga bundle',
@@ -20,5 +20,7 @@ class Hello extends Base
             'blog_footer'  => 'Please type at the URL "/hello/Barry" and see what happens!'
           )
     );
+
+    $this->response->asHTML()->send($view);
   }
 }
